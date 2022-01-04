@@ -1,0 +1,96 @@
+@charset "ISO-8859-1";
+
+#mytb {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width:100%;
+}
+
+
+#mytb td, #mytb th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#mytb tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#mytb tr:hover {
+	background-color: #ddd;
+}
+
+#mytb th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #04AA6D;
+	color: white;
+}
+
+#mytb td {
+	padding:4px;
+	text-align: left;
+}
+
+.button {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+a {
+	all: unset;
+}
+
+input[type=text], input[type=number],input[type=password] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=submit] {
+	width: 100%;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+/* 
+input[type=submit]:hover {
+	background-color: #45a049;
+} */
+
+.update,.primary{
+	background-color: #0275d8;
+}
+.update:hover,.primary:hover{
+	background-color: #0161b8;
+}
+
+.success{
+	background-color: #5cb85c;
+}
+.success:hover{
+	background-color: #47a347;
+}
+.delete{
+	background-color: #d9534f;
+}
+
+.delete:hover{
+	background-color: #d0312d;
+}
