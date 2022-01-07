@@ -9,7 +9,6 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
@@ -25,7 +24,7 @@ public class Filiere {
 	@Column(length = 60)
 	private String name;
 	
-	@OneToMany(mappedBy = "filiere")
+	@OneToMany(mappedBy = "filiere",cascade = CascadeType.ALL)
 	private List<Etudiant> etudiants = new ArrayList<>();
 
 	

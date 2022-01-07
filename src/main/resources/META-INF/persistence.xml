@@ -6,7 +6,9 @@
 	  <!-- Hibernate + Mysql8 -->
 	  <persistence-unit name="PU" >
 	    <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-	    <class>com.acme.MyEntity</class>
+	    <class>com.TB.spring.Entities.Etudiant</class>
+	    <class>com.TB.spring.Entities.Filiere</class>
+	    <class>com.TB.spring.Entities.User</class>
 	    <properties>
 	    
 	    <!-- db info -->

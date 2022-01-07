@@ -9,12 +9,8 @@
 <title>Students List</title>
 </head>
 <body>
+	<jsp:include page="TheNavBar.jsp"/>
 	<div style="width: 90%; margin: auto; margin-top: 3%">
-		<div style="width:200px">
-			<form action="filiere" method="get">
-				<input class="primary" type="submit" value="Filieres">
-			</form>
-		</div>
 		<div style="width:200px">
 			<form action="etudiant/create" method="get">
 				<input class="success" type="submit" value="Create">

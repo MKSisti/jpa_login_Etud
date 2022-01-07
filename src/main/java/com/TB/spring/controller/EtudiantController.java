@@ -15,11 +15,11 @@ import com.TB.spring.Entities.Filiere;
 @Controller
 public class EtudiantController {
 	
-	@RequestMapping(value = "/etudiant/goToEtHome", method = RequestMethod.GET)
+	@RequestMapping(value = "/etudiant/goToEtudiant", method = RequestMethod.GET)
 	public String goToEtHome() {
 		return "redirect:/etudiant";
 	}
-	
+//	
 	@RequestMapping(value = "/etudiant", method = RequestMethod.GET)
 	public String getAll(Model model,EtudiantDaoImpl ed) {
 		model.addAttribute("Etudiants",ed.findAll());

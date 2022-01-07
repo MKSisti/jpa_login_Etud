@@ -10,7 +10,7 @@
 <body>
 	<div style="width:50%;margin:auto;margin-top:3%">
 		<div style="width:200px">
-			<form action="goToFilHome" method="get">
+			<form action="goToFiliere" method="get">
 				<input class="success" type="submit" value="Go back">
 			</form>
 		</div>

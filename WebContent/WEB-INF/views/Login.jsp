@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,6 +15,11 @@
 				<input class="success" type="submit" value="SignUp ?">
 			</form>
 		</div>
+		<c:if test="${Message.length() > 0}">
+			<div class="errorText">
+				<c:out value="${Message}" />
+			</div>
+		</c:if>
 		<form action="UserLogin" method="post">
 		
 			<label for="userName">UserName: </label><br> 

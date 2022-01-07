@@ -6,17 +6,14 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.servlet.view.RedirectView;
 
-import com.TB.spring.DAO.ArticleDaoImpl;
 import com.TB.spring.DAO.FiliereDaoImpl;
-import com.TB.spring.Entities.Article;
 import com.TB.spring.Entities.Filiere;
 
 @Controller
 public class FiliereController {
 	
-	@RequestMapping(value = "/filiere/goToFilHome", method = RequestMethod.GET)
+	@RequestMapping(value = "/filiere/goToFiliere", method = RequestMethod.GET)
 	public String goToFilHome() {
 		return "redirect:/filiere";
 	}
@@ -73,4 +70,4 @@ public class FiliereController {
 
 }
 
-//filiere/doCreate goToFilHome
+//

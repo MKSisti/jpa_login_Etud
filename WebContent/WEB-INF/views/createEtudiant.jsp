@@ -11,7 +11,7 @@
 <body>
 	<div style="width:50%;margin:auto;margin-top:3%">
 		<div style="width:200px">
-			<form action="goToEtHome" method="get">
+			<form action="goToEtudiant" method="get">
 				<input class="success" type="submit" value="Go back">
 			</form>
 		</div>

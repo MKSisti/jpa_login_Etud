@@ -9,8 +9,11 @@ import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 import javax.persistence.Query;
 
+import org.springframework.stereotype.Repository;
+
 import com.TB.spring.Entities.Filiere;
 
+@Repository
 public class FiliereDaoImpl implements IGenericDAO<Filiere, Long> {
 
 	private EntityManager em ;
